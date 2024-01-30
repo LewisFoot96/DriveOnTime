@@ -1,6 +1,8 @@
-﻿namespace DriveOnTime.Domain.Entities;
+﻿using DriveOnTime.Domain.Entities.Interfaces;
 
-public class DrivingLesson
+namespace DriveOnTime.Domain.Entities;
+
+public class DrivingLesson : IAggregateRoot
 {
     
 }

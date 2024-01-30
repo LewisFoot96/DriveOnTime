@@ -1,6 +1,6 @@
 ﻿namespace DriveOnTime.Domain.Entities.Interfaces;
 
-public interface IAggregateRoot
+public interface IAggregateRoot //Identifier class.
 {
     
 }

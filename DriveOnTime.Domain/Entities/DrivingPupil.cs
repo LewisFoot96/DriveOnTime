@@ -1,6 +1,11 @@
-﻿namespace DriveOnTime.Domain.Entities;
+﻿using DriveOnTime.Domain.Entities.Interfaces;
+using DriveOnTime.Domain.ValueObjects;
 
-public class DrivingPupil
+namespace DriveOnTime.Domain.Entities;
+
+public class DrivingPupil : DrivingPerson, IAggregateRoot
 {
-    
+    public DrivingPupil(NameValue firstName, NameValue lastName, string address) : base(firstName, lastName, address)
+    {
+    }
 }

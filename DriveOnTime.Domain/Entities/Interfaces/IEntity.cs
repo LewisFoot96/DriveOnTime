@@ -1,6 +1,6 @@
 ﻿namespace DriveOnTime.Domain.Entities.Interfaces;
 
-public class IEntity
+public interface IEntity
 {
-    
+    Guid Id { get; }
 }
