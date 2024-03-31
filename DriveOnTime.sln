@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveOnTime", "DriveOnTime.csproj", "{43F63617-A0FB-475A-A2F7-EF3A6A96E649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FFEA895-7602-4766-B88F-68AE337EA48C}
+	EndGlobalSection
+EndGlobal
