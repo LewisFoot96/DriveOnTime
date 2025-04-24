@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DriveOnTime\DriveOnTime.ServiceDefaults\DriveOnTime.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\..\DriveOnTime.ServiceDefaults\DriveOnTime.ServiceDefaults.csproj" />
     <ProjectReference Include="..\DriveOnTimeUI.Shared\DriveOnTimeUI.Shared.csproj" />
   </ItemGroup>
 

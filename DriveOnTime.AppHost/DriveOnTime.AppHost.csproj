@@ -12,11 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DriveOnTimeUI\DriveOnTimeUI.Web\DriveOnTimeUI.Web.csproj" />
+    <ProjectReference Include="..\DriveOnTimeUI\DriveOnTimeUI.Web\DriveOnTimeUI.Web.csproj" />
   </ItemGroup>
 
 </Project>
