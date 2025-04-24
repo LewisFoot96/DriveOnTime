@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveOnTime", "DriveOnTime.csproj", "{43F63617-A0FB-475A-A2F7-EF3A6A96E649}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTime.AppHost", "DriveOnTime.AppHost\DriveOnTime.AppHost.csproj", "{F47B5227-D501-4DE8-A4D5-5A8C774F7C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTime.ServiceDefaults", "DriveOnTime.ServiceDefaults\DriveOnTime.ServiceDefaults.csproj", "{C3EFF0D8-B395-D554-A97E-030C01D3BABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTime.IntegrationTests", "DriveOnTime.IntegrationTests\DriveOnTime.IntegrationTests.csproj", "{39AE82C3-34CC-E968-AD17-83D16ABE1B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTimeUI.Web", "DriveOnTimeUI\DriveOnTimeUI.Web\DriveOnTimeUI.Web.csproj", "{F91A2ED3-8AD1-0E99-6174-2517E4C54A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTimeUI.Shared", "DriveOnTimeUI\DriveOnTimeUI.Shared\DriveOnTimeUI.Shared.csproj", "{424CE99F-F0BA-A26E-1D16-E23422D81215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTimeUI", "DriveOnTimeUI\DriveOnTimeUI\DriveOnTimeUI.csproj", "{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +21,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43F63617-A0FB-475A-A2F7-EF3A6A96E649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47B5227-D501-4DE8-A4D5-5A8C774F7C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47B5227-D501-4DE8-A4D5-5A8C774F7C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47B5227-D501-4DE8-A4D5-5A8C774F7C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47B5227-D501-4DE8-A4D5-5A8C774F7C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EFF0D8-B395-D554-A97E-030C01D3BABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EFF0D8-B395-D554-A97E-030C01D3BABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EFF0D8-B395-D554-A97E-030C01D3BABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EFF0D8-B395-D554-A97E-030C01D3BABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39AE82C3-34CC-E968-AD17-83D16ABE1B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AE82C3-34CC-E968-AD17-83D16ABE1B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AE82C3-34CC-E968-AD17-83D16ABE1B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AE82C3-34CC-E968-AD17-83D16ABE1B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91A2ED3-8AD1-0E99-6174-2517E4C54A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91A2ED3-8AD1-0E99-6174-2517E4C54A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91A2ED3-8AD1-0E99-6174-2517E4C54A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91A2ED3-8AD1-0E99-6174-2517E4C54A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424CE99F-F0BA-A26E-1D16-E23422D81215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424CE99F-F0BA-A26E-1D16-E23422D81215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424CE99F-F0BA-A26E-1D16-E23422D81215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424CE99F-F0BA-A26E-1D16-E23422D81215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
