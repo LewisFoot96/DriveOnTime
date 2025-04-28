@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DriveOnTime.ApiService\DriveOnTime.ApiService.csproj" />
+    <ProjectReference Include="..\DriveOnTime.ApiService\DriveOnTime.ApiService.csproj" />
     <ProjectReference Include="..\DriveOnTimeUI\DriveOnTimeUI.Web\DriveOnTimeUI.Web.csproj" />
   </ItemGroup>
 

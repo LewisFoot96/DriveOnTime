@@ -1,0 +1,6 @@
+@DriveOnTime.ApiService_HostAddress = http://localhost:5151
+
+GET {{DriveOnTime.ApiService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
