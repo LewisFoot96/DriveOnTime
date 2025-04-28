@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTimeUI.Shared", "Dri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTimeUI", "DriveOnTimeUI\DriveOnTimeUI\DriveOnTimeUI.csproj", "{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTime.ApiService", "..\DriveOnTime.ApiService\DriveOnTime.ApiService.csproj", "{52902EE7-4F7D-2836-FCF6-1913CBB2227C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveOnTime.ApiService", "DriveOnTime.ApiService\DriveOnTime.ApiService.csproj", "{11B9CB40-22C7-2665-86A8-A45321848C16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,10 +48,10 @@ Global
 		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD82E6EE-C221-0C24-99D6-791BB82D3D5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52902EE7-4F7D-2836-FCF6-1913CBB2227C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52902EE7-4F7D-2836-FCF6-1913CBB2227C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52902EE7-4F7D-2836-FCF6-1913CBB2227C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52902EE7-4F7D-2836-FCF6-1913CBB2227C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B9CB40-22C7-2665-86A8-A45321848C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B9CB40-22C7-2665-86A8-A45321848C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B9CB40-22C7-2665-86A8-A45321848C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B9CB40-22C7-2665-86A8-A45321848C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
